@@ -22,7 +22,6 @@ document.getElementById('calculate-btn').addEventListener('click', function () {
 
     const total = document.getElementById('total-expenses');
     total.innerText = totalExpenses.toFixed(2);
-    total.innerText = "00";
 
     if (incomeAmount < total.innerText) {
         return alert('Insufficient balance!');
@@ -33,7 +32,6 @@ document.getElementById('calculate-btn').addEventListener('click', function () {
 
         const balance = document.getElementById('balance');
         balance.innerText = balanceAmount.toFixed(2);
-        balance.innerText = "00";
     }
 
 });
