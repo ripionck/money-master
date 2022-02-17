@@ -6,7 +6,7 @@ function getInputValue(itemId) {
         return alert('Please input positive number!')
     }
     //clear input field
-    itemField.value = "00";
+    itemField.value = "";
     return itemAmount;
 }
 
